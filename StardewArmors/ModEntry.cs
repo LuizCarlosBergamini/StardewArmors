@@ -43,11 +43,13 @@ namespace StardewArmors
             );
 
             this.buffManager = new ArmorBuffManager(spaceCore, slotId, $"{this.ModManifest.UniqueID}_ArmorSet", this.Monitor, this.Helper.Translation);
+            EquipmentMenuCursorFix cursorFix = new(this.Monitor);
 
             IModEvents events = this.Helper.Events;
             events.GameLoop.SaveLoaded += (_, _) => this.buffManager.OnSaveLoaded();
             events.GameLoop.DayStarted += (_, _) => this.buffManager.OnDayStarted();
             events.GameLoop.UpdateTicked += (_, args) => this.buffManager.OnUpdateTicked(args);
+            events.GameLoop.UpdateTicked += (_, _) => cursorFix.OnUpdateTicked();
             events.GameLoop.ReturnedToTitle += (_, _) => this.buffManager.OnReturnedToTitle();
         }
     }
