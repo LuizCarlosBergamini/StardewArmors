@@ -1,0 +1,18 @@
+{
+    "slot.name": "Armor",
+
+    "stat.defense": "{{value}} Defense",
+    "stat.immunity": "{{value}} Immunity",
+    "stat.attack": "{{value}} Attack",
+    "stat.crit-chance": "{{value}}% Crit. Chance",
+    "stat.crit-power": "{{value}}% Crit. Power",
+    "stat.luck": "{{value}} Luck",
+    "stat.speed": "{{value}} Speed",
+    "stat.magnetism": "{{value}} Magnetism",
+    "stat.max-stamina": "{{value}} Max Energy",
+
+    "log.spacecore-missing": "Couldn't access the SpaceCore API, so the Armor slot is disabled. Make sure SpaceCore is installed and up to date.",
+    "log.unknown-stat": "Armor item '{{item}}' has an unknown stat field '{{field}}', which was ignored. Check its spelling.",
+    "log.invalid-stat": "Armor item '{{item}}' has field '{{field}}' with value '{{value}}', which isn't a number. It was ignored.",
+    "log.no-stats": "Armor item '{{item}}' is tagged as armor but has no stats. Check that its CustomFields keys start with '{{prefix}}'."
+}

@@ -1,0 +1,65 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "Entries": {
+                "{{ModId}}_CopperArmor": {
+                    "Id": "{{ModId}}_CopperArmor",
+                    "ItemId": "(O){{ModId}}_CopperArmor",
+                    "Price": 1000,
+                    "TradeItemId": "(O)334",
+                    "TradeItemAmount": 5,
+                    "Condition": "PLAYER_BASE_COMBAT_LEVEL Current 2"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AdventureShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_GoldArmor": {
+                    "Id": "{{ModId}}_GoldArmor",
+                    "ItemId": "(O){{ModId}}_GoldArmor",
+                    "Price": 8000,
+                    "Condition": "MINE_LOWEST_LEVEL_REACHED 80, PLAYER_BASE_COMBAT_LEVEL Current 6"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "VolcanoShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_DragonscaleArmor": {
+                    "Id": "{{ModId}}_DragonscaleArmor",
+                    "ItemId": "(O){{ModId}}_DragonscaleArmor",
+                    "TradeItemId": "(O)848",
+                    "TradeItemAmount": 150
+                },
+                "{{ModId}}_DragonscaleArmorRecipe": {
+                    "Id": "{{ModId}}_DragonscaleArmorRecipe",
+                    "ItemId": "(O){{ModId}}_DragonscaleArmor",
+                    "IsRecipe": true,
+                    "TradeItemId": "(O)848",
+                    "TradeItemAmount": 50
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "QiGemShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_RadioactiveArmorRecipe": {
+                    "Id": "{{ModId}}_RadioactiveArmorRecipe",
+                    "ItemId": "(O){{ModId}}_RadioactiveArmor",
+                    "IsRecipe": true,
+                    "Price": 20
+                }
+            }
+        }
+    ]
+}

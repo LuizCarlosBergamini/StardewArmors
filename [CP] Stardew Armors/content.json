@@ -1,0 +1,9 @@
+{
+    "Format": "2.9.1",
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "data/items.json, data/recipes.json, data/shops.json, data/unlocks.json"
+        }
+    ]
+}

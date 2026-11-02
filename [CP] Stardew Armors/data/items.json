@@ -1,0 +1,180 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Armor",
+            "FromFile": "assets/Armor.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_CopperArmor": {
+                    "Name": "{{ModId}}_CopperArmor",
+                    "DisplayName": "{{i18n:armor.copper.name}}",
+                    "Description": "{{i18n:armor.copper.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 0,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "1"
+                    }
+                },
+                "{{ModId}}_IronArmor": {
+                    "Name": "{{ModId}}_IronArmor",
+                    "DisplayName": "{{i18n:armor.iron.name}}",
+                    "Description": "{{i18n:armor.iron.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 1,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "2",
+                        "StardewArmors/Immunity": "1"
+                    }
+                },
+                "{{ModId}}_GoldArmor": {
+                    "Name": "{{ModId}}_GoldArmor",
+                    "DisplayName": "{{i18n:armor.gold.name}}",
+                    "Description": "{{i18n:armor.gold.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 312,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 2,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "3",
+                        "StardewArmors/Attack": "2"
+                    }
+                },
+                "{{ModId}}_IridiumArmor": {
+                    "Name": "{{ModId}}_IridiumArmor",
+                    "DisplayName": "{{i18n:armor.iridium.name}}",
+                    "Description": "{{i18n:armor.iridium.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1250,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 3,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "4",
+                        "StardewArmors/Immunity": "1",
+                        "StardewArmors/Luck": "1"
+                    }
+                },
+                "{{ModId}}_RadioactiveArmor": {
+                    "Name": "{{ModId}}_RadioactiveArmor",
+                    "DisplayName": "{{i18n:armor.radioactive.name}}",
+                    "Description": "{{i18n:armor.radioactive.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 2250,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 4,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "4",
+                        "StardewArmors/Attack": "2",
+                        "StardewArmors/CritChance": "0.10"
+                    }
+                },
+                "{{ModId}}_DragonscaleArmor": {
+                    "Name": "{{ModId}}_DragonscaleArmor",
+                    "DisplayName": "{{i18n:armor.dragonscale.name}}",
+                    "Description": "{{i18n:armor.dragonscale.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1250,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 5,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "6",
+                        "StardewArmors/Immunity": "3",
+                        "StardewArmors/Speed": "1"
+                    }
+                },
+                "{{ModId}}_PrismaticArmor": {
+                    "Name": "{{ModId}}_PrismaticArmor",
+                    "DisplayName": "{{i18n:armor.prismatic.name}}",
+                    "Description": "{{i18n:armor.prismatic.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 2750,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 6,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "7",
+                        "StardewArmors/Immunity": "4",
+                        "StardewArmors/Luck": "1",
+                        "StardewArmors/Magnetism": "32"
+                    }
+                },
+                "{{ModId}}_InfinityArmor": {
+                    "Name": "{{ModId}}_InfinityArmor",
+                    "DisplayName": "{{i18n:armor.infinity.name}}",
+                    "Description": "{{i18n:armor.infinity.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 30750,
+                    "Texture": "Mods/{{ModId}}/Armor",
+                    "SpriteIndex": 7,
+                    "CanBeGivenAsGift": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "stardewarmors_armor" ],
+                    "CustomFields": {
+                        "StardewArmors/Defense": "8",
+                        "StardewArmors/Immunity": "5",
+                        "StardewArmors/Luck": "1",
+                        "StardewArmors/Attack": "2",
+                        "StardewArmors/Magnetism": "64"
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_CopperArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_IronArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_GoldArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_IridiumArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_RadioactiveArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_DragonscaleArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_PrismaticArmor": { "MaxStackSizeOverride": 1 },
+                "{{ModId}}_InfinityArmor": { "MaxStackSizeOverride": 1 }
+            }
+        }
+    ]
+}

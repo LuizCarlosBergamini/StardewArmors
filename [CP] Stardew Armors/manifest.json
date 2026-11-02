@@ -1,0 +1,22 @@
+{
+    "Name": "[CP] Stardew Armors",
+    "Author": "Luizincb",
+    "Version": "0.1.0",
+    "Description": "Adds stat-granting armor crafted from the same ores and materials as vanilla weapon progression.",
+    "UniqueID": "Luizincb.StardewArmors.CP",
+    "UpdateKeys": [],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "MinimumVersion": "1.28.0"
+        },
+        {
+            "UniqueID": "Luizincb.StardewArmors",
+            "MinimumVersion": "0.1.0"
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.9.1"
+    }
+}

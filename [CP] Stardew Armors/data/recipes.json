@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_CopperArmor": "(O)334 5 (O)771 20/Home/(O){{ModId}}_CopperArmor/false/Combat 2/",
+                "{{ModId}}_IronArmor": "(O)335 5 (O){{ModId}}_CopperArmor 1/Home/(O){{ModId}}_IronArmor/false/Combat 4/",
+                "{{ModId}}_GoldArmor": "(O)336 5 (O){{ModId}}_IronArmor 1/Home/(O){{ModId}}_GoldArmor/false/Combat 6/",
+                "{{ModId}}_IridiumArmor": "(O)337 5 (O){{ModId}}_GoldArmor 1/Home/(O){{ModId}}_IridiumArmor/false/Combat 8/",
+                "{{ModId}}_RadioactiveArmor": "(O)910 3 (O){{ModId}}_IridiumArmor 1/Home/(O){{ModId}}_RadioactiveArmor/false/null/",
+                "{{ModId}}_DragonscaleArmor": "(O)852 5 (O)848 50 (O){{ModId}}_IridiumArmor 1/Home/(O){{ModId}}_DragonscaleArmor/false/null/",
+                "{{ModId}}_PrismaticArmor": "(O)74 3 (O)337 5 (O){{ModId}}_DragonscaleArmor 1/Home/(O){{ModId}}_PrismaticArmor/false/null/"
+            }
+        }
+    ]
+}

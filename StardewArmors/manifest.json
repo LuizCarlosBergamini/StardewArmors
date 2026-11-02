@@ -1,0 +1,16 @@
+{
+    "Name": "Stardew Armors",
+    "Author": "Luizincb",
+    "Version": "0.1.0",
+    "Description": "Adds an Armor equipment slot and applies the stats of the armor worn in it.",
+    "UniqueID": "Luizincb.StardewArmors",
+    "EntryDll": "StardewArmors.dll",
+    "MinimumApiVersion": "4.5.0",
+    "UpdateKeys": [],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "MinimumVersion": "1.28.0"
+        }
+    ]
+}

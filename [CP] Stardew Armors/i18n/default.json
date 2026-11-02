@@ -1,0 +1,27 @@
+{
+    "armor.copper.name": "Copper Armor",
+    "armor.copper.description": "Copper plates laced together with fiber. Crude, but better than nothing.",
+
+    "armor.iron.name": "Iron Armor",
+    "armor.iron.description": "Solid iron plating over the old copper. Heavy, dependable and hard to dent.",
+
+    "armor.gold.name": "Gold Armor",
+    "armor.gold.description": "Gold-clad and well balanced. Swings seem to land a little harder in it.",
+
+    "armor.iridium.name": "Iridium Armor",
+    "armor.iridium.description": "A shimmering alloy that seems to invite good fortune.",
+
+    "armor.radioactive.name": "Radioactive Armor",
+    "armor.radioactive.description": "It hums faintly and sharpens every strike. Probably don't sleep in it.",
+
+    "armor.dragonscale.name": "Dragonscale Armor",
+    "armor.dragonscale.description": "Forged in the volcano's heat, it's light enough to run in.",
+
+    "armor.prismatic.name": "Prismatic Armor",
+    "armor.prismatic.description": "Shifts through every color and draws nearby treasures toward you.",
+
+    "armor.infinity.name": "Infinity Armor",
+    "armor.infinity.description": "The stars themselves are woven through it. Nothing else comes close.",
+
+    "mail.prismatic-armor": "@,^Word travels fast: you've claimed the Galaxy Sword.^Prismatic shards can do more than make a blade. Combine three of them with five iridium bars and your dragonscale armor, and you'll have something worthy of it.^   -Clint[#]Prismatic Armor"
+}
